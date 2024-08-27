@@ -18,7 +18,15 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+a = int(input())
+b = int(input())
+temp = a
+a = b
+b = temp
+print("Swapped values are: {} {}".format(a, b))
 
+## OUTPUT:
+![Screenshot (72)](https://github.com/user-attachments/assets/2301c4d2-fe02-4297-a521-0f50212a7339)
 
 
 ## RESULT:
